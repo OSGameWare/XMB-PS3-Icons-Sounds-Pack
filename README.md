@@ -26,56 +26,41 @@ It applies PlayStation 3–style icons, fonts, and sound effects on top of the e
 ### 1. Locate RetroArch’s Assets Directory
 RetroArch > assets > xmb > systematic
 
-mathematica
-Copy code
-
 ### 2. Replace the Font
 1. Open the downloaded pack:
 PS3 Icons + Sounds > icons > systematic
 
-sql
-Copy code
 2. Copy the new font file and replace the existing one in:
 RetroArch > assets > xmb > systematic
-
-markdown
-Copy code
 
 ### 3. Install the Icons
 1. Navigate to:
 RetroArch > assets > xmb > systematic > png
 
-perl
-Copy code
 2. From the pack, open:
 PS3 Icons + Sounds > icons > systematic > png
 
-markdown
-Copy code
 3. Drag and drop all `.png` files into the `systematic/png` folder.  
+
 4. When prompted, select **"Replace All"**.
 
 ### 4. Add the Sounds
 1. In RetroArch, go to:
 assets > sounds
 
-perl
-Copy code
 2. In the pack, open:
 PS3 Icons + Sounds > sounds
 
-markdown
-Copy code
 3. Drag and drop all `.ogg` files into the RetroArch `sounds` folder.  
+
 4. Replace all existing files when asked.
 
 ### 5. Enable Menu Sounds in RetroArch
 1. Launch **RetroArch**.  
+
 2. Navigate to:
 Settings > Audio > Menu Sounds
 
-yaml
-Copy code
 3. Enable the following options:
 - **Mixer**
 - **OK Sound**
